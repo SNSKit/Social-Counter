@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Getting Your Social Stats</title>
+	<title>Tutorial: Get Your Social Follower Count Using PHP</title>
 	<link rel="stylesheet" href="css/style.css" /> 
 </head>
 
