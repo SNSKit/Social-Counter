@@ -55,7 +55,7 @@ $facebook_count = $facebook['likes'];
 		
 			<h1>Demo: Get Your Social Follower Count Using PHP</h1>
 		
-			<p>Read the <a href="">full article</a> on how to get your Twitter, RSS and Facebook follower count.</p>
+			<p>Read the <a href="http://designwoop.com/2012/09/tutorial-get-your-social-follower-count-using-php">full article</a> on how to get your Twitter, RSS and Facebook follower count.</p>
 	
 		</header>
 		
