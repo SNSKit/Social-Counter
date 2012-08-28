@@ -1,4 +1,4 @@
-Social-Counter
+Social Counter
 ============================
 
 A few super simple PHP snippets to grab RSS subscribers, FaceBook 'Likes' and Twitter followers.
