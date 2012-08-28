@@ -1,0 +1,137 @@
+/* CSS Reset - http://meyerweb.com/eric/tools/css/reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    line-height: 28px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 30px 0;
+}
+
+p a {
+	border-bottom: 1px dotted #000;
+}
+
+a,
+a:link,
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover, 
+a:active {
+	opacity: 0.6;
+}
+
+.wrap {
+	width: 550px;
+	margin: 0 auto 0 auto;
+	padding: 400px 0 0 0;
+	clear: both;
+}
+
+.social-love {
+	width: 300px;
+	margin: 60px auto 0 auto;
+	clear: both;
+}
+
+.social-love ul {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	display: block;
+}
+
+.social-love ul li {
+	margin: 0 32px 0 50px;
+	padding: 0;
+	float: left;
+	width: 32px;
+	height: 32px;
+}
+
+.social-love ul li:first-child {
+	margin-left: 0;
+}
+
+.social-love ul li a {
+	margin: 2px 50px 0 40px;
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.rss {
+	background: url(../img/icons-sprite.png) 0 0 repeat transparent;
+}
+
+.twitter {
+	background: url(../img/icons-sprite.png) 64px 0 repeat transparent;
+}
+
+.facebook {
+	background: url(../img/icons-sprite.png) 32px 0 repeat transparent;
+}
+
+footer {
+	margin: 60px 0 0 0;
+	font-size: 12px;
+	float: left;
+	clear: both;
+}
